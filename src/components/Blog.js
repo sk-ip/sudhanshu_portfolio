@@ -3,8 +3,8 @@ import PropTypes from "prop-types"
 import Image from "gatsby-image"
 import { Link } from "gatsby"
 
-const Blog = ({id, title, image, date, category, slug, desc}) => {
-	return <Link to={`/blogs/${slug}`} className="blog" key={id}>
+const Blog = ({id, title, image, date, category, blogurl, slug, desc}) => {
+	return <a href={`${ blogurl ? blogurl : "/blogs/"+slug}`} target="_blank" className="blog" key={id}>
 		<article>
 			{
 				image && <Image fluid={image.childImageSharp.fluid} className="blog-img"/>
@@ -18,7 +18,7 @@ const Blog = ({id, title, image, date, category, slug, desc}) => {
 				</div>
 			</div>
 		</article>
-	</Link>
+	</a>
 }
 
 Blog.propTypes = {
