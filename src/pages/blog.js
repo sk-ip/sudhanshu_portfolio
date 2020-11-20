@@ -23,6 +23,7 @@ export const query = graphql`
 			id
 			title
 			category
+			blogurl
 			image {
 				childImageSharp {
 					fluid {
