@@ -7,12 +7,14 @@ import Jobs from "../components/Jobs"
 import Projects from "../components/Projects"
 import Blogs from "../components/Blogs"
 import Contact from "../components/Contact"
+import SEO from "../components/SEO"
 
 export default ({data}) => {
 	const {allStrapiProjects: {nodes: projects},
 	allStrapiBlogs: {nodes: blogs}} = data;
 
     return <Layout>
+		<SEO title="Home" description="This is the Home page" />
 		<Hero />
     	<Jobs />
 		<Projects projects={projects} title="Featured Projects" showLink/>
