@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/5ef16f12-055d-422f-8a5f-c19ec4519147/deploy-status)](https://app.netlify.com/sites/sudhanshukumar/deploys)
+
 # React Portfolio Website
 
   - This is my portfolio website showcasing my projects and achievements
