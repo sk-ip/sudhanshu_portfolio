@@ -5,7 +5,7 @@
 
 ### References
 
-- [John-Smigla Github](https://github.com/john-smilga/strapi-gatsby-porfolio-2020-api)
+- [John Smilga Github](https://github.com/john-smilga/strapi-gatsby-porfolio-2020-api)
 - [Strapi documentation](https://strapi.io/documentation/)
 - [React](https://reactjs.org/docs/getting-started.html)
 - [Gatsby Tutorials](https://www.gatsbyjs.com/docs/tutorial/)
